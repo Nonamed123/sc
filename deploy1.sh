@@ -1,5 +1,4 @@
 #!/bin/bash
 set -e
-source /reddit
+cd /reddit
 bundle install
-rvm requirements
